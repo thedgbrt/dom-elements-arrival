@@ -1,0 +1,36 @@
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-container .item {
+  flex-grow: 1;
+  padding: 15px;
+  width: 300px;
+}
+.flex-container .item img{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background: #ccc;
+}
+#sidebar{
+  margin-top: 15px;
+}
+article{
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 15px;
+}
